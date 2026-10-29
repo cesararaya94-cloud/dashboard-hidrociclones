@@ -1,0 +1,9 @@
+// Publicación en Cloudflare (Workers con archivos estáticos): solo se publica index.html (ver .assetsignore).
+// El acceso se restringe con Cloudflare Access (correos @codelco.cl), configurado en el panel de Zero Trust.
+{
+  "name": "dashboard-hidrociclones",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "./" },
+  "workers_dev": true,
+  "preview_urls": false
+}

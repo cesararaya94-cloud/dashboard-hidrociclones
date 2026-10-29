@@ -1,0 +1,9 @@
+# Lo que no se publica en Cloudflare: solo va index.html
+.git
+.git/
+.wrangler
+.wrangler/
+.github
+wrangler.jsonc
+.assetsignore
+*.md
